@@ -243,16 +243,17 @@ p, address {
 }
 
 .tm-header {
-  position: absolute;
+  /*position: absolute;*/
   top: 0;
   left: 0;
   width: 100%;
   color: white;
   z-index: 1000;
+  background:  #333;
 }
 
 .tm-header-inner {
-  padding: 40px 50px;
+  padding: 10px 50px;
 }
 
 @media (max-width: 991px) {
@@ -324,6 +325,8 @@ p, address {
 .tm-nav-ul {
   display: flex;
   justify-content: flex-end;
+  height: 100%;
+  align-items: center;
 }
 
 .tm-nav-li {
@@ -353,7 +356,7 @@ p, address {
 }
 
 .tm-welcome-section {
-  margin: 60px auto;
+  margin: auto auto;
   max-width: 1200px;
 }
 
@@ -490,6 +493,8 @@ p, address {
   flex-direction: column;
   margin-top: 30px;
   max-width: 530px;
+  height: 100%;
+  justify-content: center;  
 }
 
 @media (min-width: 768px) {
