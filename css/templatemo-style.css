@@ -473,7 +473,8 @@ p, address {
 
 .tm-paging-link.active,
 .tm-paging-link:hover {
-  background-color: #1e80b2;
+  /*background-color: #1e80b2; -- blue */
+  background-color: #ec1c24;  
   color: white;
 }
 
